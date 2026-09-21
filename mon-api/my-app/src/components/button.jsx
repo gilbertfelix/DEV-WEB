@@ -4,7 +4,7 @@ const Title =() => {
     const Apicall = async () => {
     const [count, setCount] = useState(0);
     const [titre, setTitre] = useState("Hello word");
-    const reponse = await fetch('https://jsonplaceholder.typicode.com/posts/1')
+    const reponse = await fetch('https://dev-web-1xz5.onrender.com/')
     const fdata = await reponse.json();
     console.log(data);
     setTitre(data.body);
